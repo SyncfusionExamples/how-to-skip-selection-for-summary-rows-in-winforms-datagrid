@@ -16,6 +16,7 @@ public Form1()
 public class CustomRowSelectionController : RowSelectionController
 {
     SfDataGrid DataGrid;
+
     public CustomRowSelectionController(SfDataGrid sfDataGrid)
         : base(sfDataGrid)
     {
